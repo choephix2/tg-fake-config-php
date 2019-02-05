@@ -1,62 +1,47 @@
 {
-   "telegram_user":{
-       "id": 1000000,
-       "phone": "+639365275149",
-       "tg_api_id":309143,
-       "tg_api_hash":"2a34403e254f8f58fef9458b4df00d2d",
-       "session_key":"1BVtsOG4BuxeEGEruhzdAFwreaCa581vjk2DAmv0EUraUdIh9m72aiNfDgxiJxPg5sQdcetLsW-FcICt3nqurmWbybpp-ZXZRBAP8n5D4_UXzuJLVzHKWgaMurGoOG8O74pXirz42PKCs8V5dCICXIQRmHr4nZoZ5kR41Vlrh6fWlsNkTOwAB4qoDESxyTsgYN4h632h_dOOnwfLVXhyIK-sfA5RY-WZtB49LLVrK2NqMCF_ffc_O9IZ_24ey-iGhtFW7555q7M-fm3dqfi7jIiXZ274Cw2V9DyULA97NrIJqumnyh8Ta3xCwFMl9C2qZ8oZ7Gfze4AQJ4pU0oS2b_vWH2StepRA=",
-       "is_active": false,
-       "created_at": "2018-08-09 13:01:46",
-       "updated_at": "2018-08-09 13:01:46",
-       "deleted_at": null
-   },
-   "global_settings": {
+  "telegram_user":
+  {
+      "id": 1000000,
+      "phone": "+639365275149",
+      "tg_api_id":309143,
+      "tg_api_hash":"2a34403e254f8f58fef9458b4df00d2d",
+      "session_key":"",
+      "is_active": false,
+      "created_at": "2018-08-09 13:01:46",
+      "updated_at": "2018-08-09 13:01:46",
+      "deleted_at": null
+  },
+  "global_settings":
+  {
+       "id":1,
+       "server":"hathor.xatonax.com",
 
-        "id":1,
-        "server":"hathor.xatonax.com",
+       "created_at":"2018-09-26 12:36:46",
+       "updated_at":"2018-09-26 14:29:41",
+       "deleted_at":null,
+       "is_active":false,
 
-        "created_at":"2018-09-26 12:36:46",
-        "updated_at":"2018-09-26 14:29:41",
-        "deleted_at":null,
-        "is_active":false,
-
-        "telegram_sleep_interval_from":1,
-        "telegram_sleep_interval_to":9,
+       "telegram_sleep_interval_from":1,
+       "telegram_sleep_interval_to":9,
 
 
-        "db_database":"telegram",
-        "db_host":"31.204.155.92",
-        "db_port":9042,
-        "db_username":"bigdata",
-        "db_password":"Wifisky22",      
-        "db_messages_table":"messages_by_channel",
-        "db_channels_table":"channels",
-        "db_users_table":"users", 
+       "db_database":"telegram",
+       "db_host":"31.204.155.92",
+       "db_port":9042,
+       "db_username":"bigdata",
+       "db_password":"Wifisky22",
+       "db_messages_table":"messages_by_channel",
+       "db_channels_table":"channels",
+       "db_users_table":"users",
 
-        "mq_host":"temida.xatonax.com",
-        "mq_port":5672,
-        "mq_username":"temida",
-        "mq_password":"Eemi8cah",
-        "mq_messages_queue":"bd_telegram_messages",
-        "mq_channels_queue":"bd_telegram_channels",
-        "mq_users_queue":"bd_telegram_users"
-   },
-   "proxy":{"id":3,"host":"zproxy.lum-superproxy.io","port":22225,"country":"DE","username":"lum-customer-hl_9b512175-zone-bd_dev_de_3","password":"oyi46mgu5obl","is_active":true,"created_at":"2018-10-11 12:26:41","updated_at":"2018-10-25 15:19:12","deleted_at":null},
-   "telegram_channels": [
-       {
-           "id": 0,
-           "url": "https://t.me/bancapublic",
-           "tg_channel_id": null,
-           "tg_channel_username": null,
-           "tg_channel_title": null,
-           "members_count": null,
-           "messages_count": null,
-           "telegram_user_id": null,
-           "is_banned": 0,
-           "is_active": false,
-           "created_at": "2018-08-09 13:02:59",
-           "updated_at": "2018-08-09 13:02:59",
-           "deleted_at": null
-       }
-   ]
+       "mq_host":"temida.xatonax.com",
+       "mq_port":5672,
+       "mq_username":"temida",
+       "mq_password":"Eemi8cah",
+       "mq_messages_queue":"bd_telegram_messages_DEV",
+       "mq_channels_queue":"bd_telegram_channels_DEV",
+       "mq_users_queue":"bd_telegram_users_DEV"
+  },
+  "proxy":{"id":3,"host":"zproxy.lum-superproxy.io","port":22225,"country":"DE","username":"lum-customer-hl_9b512175-zone-bd_dev_de_3","password":"oyi46mgu5obl","is_active":true,"created_at":"2018-10-11 12:26:41","updated_at":"2018-10-25 15:19:12","deleted_at":null},
+  "telegram_channels": []
 }
