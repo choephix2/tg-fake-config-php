@@ -51,12 +51,12 @@ for ( $i=0; $i<sizeof($channels_list); $i++ )
   $c = (object)($channels_list[$i]);
   $o = json_decode($tg_channel_json);;
   $o->id = ++$i;
-  if ( $c->username )
+  if ( isset($c->username) )
   {
     $o->tg_channel_username = $c->username;
     $o->url = "https://t.me/$c->username";
   }
-  if ( $c->id )
+  if ( isset($c->id) )
     $o->tg_channel_id = $c->id;
   array_push( $channels, $o );
 }
